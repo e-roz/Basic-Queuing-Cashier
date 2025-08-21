@@ -28,66 +28,66 @@ namespace Basic_Queuing_Cashier
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCashier = new System.Windows.Forms.Button();
-            this.lblQueue = new System.Windows.Forms.Label();
-            this.lblPosition = new System.Windows.Forms.Label();
-            this.lblHint = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            btnCashier = new Button();
+            lblQueue = new Label();
+            lblPosition = new Label();
+            lblHint = new Label();
+            SuspendLayout();
             // 
             // btnCashier
             // 
-            this.btnCashier.Location = new System.Drawing.Point(50, 100);
-            this.btnCashier.Name = "btnCashier";
-            this.btnCashier.Size = new System.Drawing.Size(120, 40);
-            this.btnCashier.TabIndex = 0;
-            this.btnCashier.Text = "Cashier";
-            this.btnCashier.UseVisualStyleBackColor = true;
-            this.btnCashier.Click += new System.EventHandler(this.btnCashier_Click);
+            btnCashier.Location = new Point(50, 100);
+            btnCashier.Name = "btnCashier";
+            btnCashier.Size = new Size(120, 40);
+            btnCashier.TabIndex = 0;
+            btnCashier.Text = "Cashier";
+            btnCashier.UseVisualStyleBackColor = true;
+            btnCashier.Click += btnCashier_Click;
             // 
             // lblQueue
             // 
-            this.lblQueue.AutoSize = true;
-            this.lblQueue.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQueue.Location = new System.Drawing.Point(250, 120);
-            this.lblQueue.Name = "lblQueue";
-            this.lblQueue.Size = new System.Drawing.Size(150, 45);
-            this.lblQueue.TabIndex = 1;
-            this.lblQueue.Text = "P - 10007";
+            lblQueue.AutoSize = true;
+            lblQueue.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            lblQueue.Location = new Point(250, 120);
+            lblQueue.Name = "lblQueue";
+            lblQueue.Size = new Size(161, 45);
+            lblQueue.TabIndex = 1;
+            lblQueue.Text = "P - 00000";
             // 
             // lblPosition
             // 
-            this.lblPosition.AutoSize = true;
-            this.lblPosition.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblPosition.Location = new System.Drawing.Point(250, 80);
-            this.lblPosition.Name = "lblPosition";
-            this.lblPosition.Size = new System.Drawing.Size(120, 21);
-            this.lblPosition.TabIndex = 2;
-            this.lblPosition.Text = "Position in Queue";
+            lblPosition.AutoSize = true;
+            lblPosition.Font = new Font("Segoe UI", 12F);
+            lblPosition.Location = new Point(250, 80);
+            lblPosition.Name = "lblPosition";
+            lblPosition.Size = new Size(132, 21);
+            lblPosition.TabIndex = 2;
+            lblPosition.Text = "Position in Queue";
             // 
             // lblHint
             // 
-            this.lblHint.AutoSize = true;
-            this.lblHint.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHint.ForeColor = System.Drawing.Color.Red;
-            this.lblHint.Location = new System.Drawing.Point(50, 150);
-            this.lblHint.Name = "lblHint";
-            this.lblHint.Size = new System.Drawing.Size(100, 13);
-            this.lblHint.TabIndex = 3;
-            this.lblHint.Text = "*Click to get a number";
+            lblHint.AutoSize = true;
+            lblHint.Font = new Font("Segoe UI", 8F);
+            lblHint.ForeColor = Color.Red;
+            lblHint.Location = new Point(50, 150);
+            lblHint.Name = "lblHint";
+            lblHint.Size = new Size(122, 13);
+            lblHint.TabIndex = 3;
+            lblHint.Text = "*Click to get a number";
             // 
             // QueuingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 250);
-            this.Controls.Add(this.lblHint);
-            this.Controls.Add(this.lblPosition);
-            this.Controls.Add(this.lblQueue);
-            this.Controls.Add(this.btnCashier);
-            this.Name = "QueuingForm";
-            this.Text = "QueuingForm";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(450, 250);
+            Controls.Add(lblHint);
+            Controls.Add(lblPosition);
+            Controls.Add(lblQueue);
+            Controls.Add(btnCashier);
+            Name = "QueuingForm";
+            Text = "JZRQueuingForm";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

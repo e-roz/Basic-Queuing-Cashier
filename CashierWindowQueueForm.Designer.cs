@@ -28,51 +28,51 @@ namespace Basic_Queuing_Cashier
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.listCashierQueue = new System.Windows.Forms.ListView();
-            this.SuspendLayout();
+            btnRefresh = new Button();
+            btnNext = new Button();
+            listCashierQueue = new ListView();
+            SuspendLayout();
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(50, 50);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(120, 40);
-            this.btnRefresh.TabIndex = 0;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            btnRefresh.Location = new Point(50, 50);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(120, 40);
+            btnRefresh.TabIndex = 0;
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += btnRefresh_Click;
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(50, 120);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(120, 40);
-            this.btnNext.TabIndex = 1;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            btnNext.Location = new Point(50, 120);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(120, 40);
+            btnNext.TabIndex = 1;
+            btnNext.Text = "Next";
+            btnNext.UseVisualStyleBackColor = true;
+            btnNext.Click += btnNext_Click;
             // 
             // listCashierQueue
             // 
-            this.listCashierQueue.Location = new System.Drawing.Point(200, 50);
-            this.listCashierQueue.Name = "listCashierQueue";
-            this.listCashierQueue.Size = new System.Drawing.Size(300, 200);
-            this.listCashierQueue.TabIndex = 2;
-            this.listCashierQueue.UseCompatibleStateImageBehavior = false;
-            this.listCashierQueue.View = System.Windows.Forms.View.List;
+            listCashierQueue.Location = new Point(200, 50);
+            listCashierQueue.Name = "listCashierQueue";
+            listCashierQueue.Size = new Size(300, 200);
+            listCashierQueue.TabIndex = 2;
+            listCashierQueue.UseCompatibleStateImageBehavior = false;
+            listCashierQueue.View = View.List;
             // 
             // CashierWindowQueueForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 300);
-            this.Controls.Add(this.listCashierQueue);
-            this.Controls.Add(this.btnNext);
-            this.Controls.Add(this.btnRefresh);
-            this.Name = "CashierWindowQueueForm";
-            this.Text = "CashierWindowQueueForm";
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(550, 300);
+            Controls.Add(listCashierQueue);
+            Controls.Add(btnNext);
+            Controls.Add(btnRefresh);
+            Name = "CashierWindowQueueForm";
+            Text = "JZRCashierWindowQueueForm";
+            ResumeLayout(false);
         }
 
         #endregion

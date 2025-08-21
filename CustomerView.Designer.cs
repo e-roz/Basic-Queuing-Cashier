@@ -28,41 +28,41 @@ namespace Basic_Queuing_Cashier
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNowServing = new System.Windows.Forms.Label();
-            this.lblNowServingText = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lblNowServing = new Label();
+            lblNowServingText = new Label();
+            SuspendLayout();
             // 
             // lblNowServing
             // 
-            this.lblNowServing.AutoSize = true;
-            this.lblNowServing.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNowServing.Location = new System.Drawing.Point(100, 120);
-            this.lblNowServing.Name = "lblNowServing";
-            this.lblNowServing.Size = new System.Drawing.Size(150, 45);
-            this.lblNowServing.TabIndex = 0;
-            this.lblNowServing.Text = "P - 10001";
+            lblNowServing.AutoSize = true;
+            lblNowServing.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            lblNowServing.Location = new Point(100, 120);
+            lblNowServing.Name = "lblNowServing";
+            lblNowServing.Size = new Size(161, 45);
+            lblNowServing.TabIndex = 0;
+            lblNowServing.Text = "P - 00000";
             // 
             // lblNowServingText
             // 
-            this.lblNowServingText.AutoSize = true;
-            this.lblNowServingText.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNowServingText.Location = new System.Drawing.Point(100, 60);
-            this.lblNowServingText.Name = "lblNowServingText";
-            this.lblNowServingText.Size = new System.Drawing.Size(200, 32);
-            this.lblNowServingText.TabIndex = 1;
-            this.lblNowServingText.Text = "*Now Serving*";
+            lblNowServingText.AutoSize = true;
+            lblNowServingText.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            lblNowServingText.Location = new Point(100, 60);
+            lblNowServingText.Name = "lblNowServingText";
+            lblNowServingText.Size = new Size(183, 32);
+            lblNowServingText.TabIndex = 1;
+            lblNowServingText.Text = "*Now Serving*";
             // 
             // CustomerView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 250);
-            this.Controls.Add(this.lblNowServingText);
-            this.Controls.Add(this.lblNowServing);
-            this.Name = "CustomerView";
-            this.Text = "CustomerView";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(400, 250);
+            Controls.Add(lblNowServingText);
+            Controls.Add(lblNowServing);
+            Name = "CustomerView";
+            Text = "JZRCustomerView";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

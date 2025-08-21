@@ -11,5 +11,10 @@ namespace Basic_Queuing_Cashier
         {
             lblNowServing.Text = queueNumber;
         }
+
+        private void lblNowServing_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
